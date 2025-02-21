@@ -32,14 +32,3 @@ with open(file_path, mode='r', newline='', encoding='utf-8') as file:
             musica = row[2] + ' - ' + row[3]
             st.subheader(musica) 
             st.write('Link: ', row[4])
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
